@@ -27,7 +27,7 @@ public class Computer {
         compArray[2] = new Computer();
         compArray[3] = new Computer();
         compArray[4] = new Computer();
-        compArray[0].setCpu(3500.5);
+        compArray[0].setCpu(3500.0);
         compArray[1].setCpu(4200.5);
         compArray[2].setCpu(3800.5);
         compArray[3].setCpu(3850.5);
