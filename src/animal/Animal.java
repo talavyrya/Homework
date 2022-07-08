@@ -48,7 +48,7 @@ class Main {
         Animal jiraf = new Animal(6, "Longy");
         Animal dog = new Animal(4, "Polkan");
         Animal cat = new Animal(8);
-        Animal horse = new Animal(10, "Пегас");
+        Animal horse = new Animal(10, "Pegas");
         slon.setAge(2);
         jiraf.setName("Pretty");
         System.out.println(slon);
