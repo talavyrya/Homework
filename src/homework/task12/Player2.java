@@ -1,9 +1,9 @@
 package homework.task12;
 
 public class Player2 extends Team {
-    String name;
-    int age;
-    String national;
+    private String name;
+    private int age;
+    private String national;
 
     public String getName() {
         return name;
