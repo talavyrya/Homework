@@ -38,10 +38,10 @@ public class Final {
         Final room1 = new Final(4.5, 3);
         Final room2 = new Final(3, 4);
         Final room3 = new Final(6, 3.5);
-        System.out.println("Постоянная величина квартиры - это высота: " + height);
-        System.out.println("Обьем комнаты 1 в квартире: " + room1.volume() + " кубических метра");
-        System.out.println("Обьем комнаты 2 в квартире: " + room2.volume() + " кубических метра");
-        System.out.println("Обьем комнаты 3 в квартире: " + room3.volume() + " кубических метра");
-        System.out.println("Количество комнат в квартире: " + rooms);
+        System.out.println("РџРѕСЃС‚РѕСЏРЅРЅР°СЏ РІРµР»РёС‡РёРЅР° РєРІР°СЂС‚РёСЂС‹ - СЌС‚Рѕ РІС‹СЃРѕС‚Р°: " + height);
+        System.out.println("РћР±СЊРµРј РєРѕРјРЅР°С‚С‹ 1 РІ РєРІР°СЂС‚РёСЂРµ: " + room1.volume() + " РєСѓР±РёС‡РµСЃРєРёС… РјРµС‚СЂР°");
+        System.out.println("РћР±СЊРµРј РєРѕРјРЅР°С‚С‹ 2 РІ РєРІР°СЂС‚РёСЂРµ: " + room2.volume() + " РєСѓР±РёС‡РµСЃРєРёС… РјРµС‚СЂР°");
+        System.out.println("РћР±СЊРµРј РєРѕРјРЅР°С‚С‹ 3 РІ РєРІР°СЂС‚РёСЂРµ: " + room3.volume() + " РєСѓР±РёС‡РµСЃРєРёС… РјРµС‚СЂР°");
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РєРѕРјРЅР°С‚ РІ РєРІР°СЂС‚РёСЂРµ: " + rooms);
     }
 }

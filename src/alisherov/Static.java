@@ -37,15 +37,15 @@ public class Static {
         Static circle = new Static(12);
         Static circle2 = new Static(25.5);
         Static circle3 = new Static();
-        System.out.println("площадь окружности 1: " + circle.square());
-        System.out.println("площадь окружности 2: " + circle2.square());
-        System.out.println("площадь окружности 3: " + circle3.square());
-        System.out.println("Длинна окружности 1: " + circle.lenght());
-        System.out.println("Длинна окружности 2: " + circle2.lenght());
-        System.out.println("Длинна окружности 3: " + circle3.lenght());
-        System.out.println("Постоянная величина ПИ: " + Static.pi);
-        System.out.println("Количество фигур: " + count);
+        System.out.println("РїР»РѕС‰Р°РґСЊ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё 1: " + circle.square());
+        System.out.println("РїР»РѕС‰Р°РґСЊ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё 2: " + circle2.square());
+        System.out.println("РїР»РѕС‰Р°РґСЊ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё 3: " + circle3.square());
+        System.out.println("Р”Р»РёРЅРЅР° РѕРєСЂСѓР¶РЅРѕСЃС‚Рё 1: " + circle.lenght());
+        System.out.println("Р”Р»РёРЅРЅР° РѕРєСЂСѓР¶РЅРѕСЃС‚Рё 2: " + circle2.lenght());
+        System.out.println("Р”Р»РёРЅРЅР° РѕРєСЂСѓР¶РЅРѕСЃС‚Рё 3: " + circle3.lenght());
+        System.out.println("РџРѕСЃС‚РѕСЏРЅРЅР°СЏ РІРµР»РёС‡РёРЅР° РџР: " + Static.pi);
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ С„РёРіСѓСЂ: " + count);
         Static circle4 = new Static();
-        System.out.println("New Количество фигур: " + count);
+        System.out.println("New РљРѕР»РёС‡РµСЃС‚РІРѕ С„РёРіСѓСЂ: " + count);
     }
 }
