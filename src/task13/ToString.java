@@ -6,7 +6,7 @@ public class ToString {
     private String engine;
 
     public String toString() {
-        return type + "----" + cabin + " seats----" + engine;
+        return type + "----" + cabin + " сидений----" + engine;
     }
 
     public String getType() {

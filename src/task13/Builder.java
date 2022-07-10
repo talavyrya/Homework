@@ -14,7 +14,7 @@ public class Builder {
         double vol1 = 34.52;
         double vol2 = 54.47;
         double proc = vol1 / vol2;
-        System.out.printf("Коеффициент между двух чисел: %.2f \n", proc);
-        System.out.printf("Длинна значения занимает 20 символов %20f \n", vol1);
+        System.out.printf("РљРѕРµС„С„РёС†РёРµРЅС‚ РґРІСѓС… С‡РёСЃРµР»: %.2f \n", proc);
+        System.out.printf("Р§РёСЃР»Рѕ Р·Р°РЅРёРјР°РµС‚ 20 СЃРёРјРІРѕР»РѕРІ: %20f \n", vol1);
     }
 }
