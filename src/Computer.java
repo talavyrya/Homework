@@ -38,7 +38,7 @@ public class Computer {
         compArray[3].setRam(1024);
         compArray[4].setRam(2048);
         for (int i = 0; i < compArray.length; i++) {
-            System.out.println("×àñòîòà CPU: " + compArray[i].getCpu() + " Mghz;" + "\t Îáúåì îïåðàòèâíîé ïàìÿòè: " + compArray[i].getRam() + " Mb");
+            System.out.println("Ð§Ð°ÑÑ‚Ð¾Ñ‚Ð° CPU: " + compArray[i].getCpu() + " Mghz;" + "\t ÐžÐ±ÑŠÐµÐ¼ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¸Ð²Ð½Ð¾Ð¹ Ð¿Ð°Ð¼ÑÑ‚Ð¸: " + compArray[i].getRam() + " Mb");
         }
     }
 }
