@@ -5,13 +5,13 @@ public class Alisher19 {
         Weather rain = new Weather();
         Weather snow = new Weather();
         Weather sunshine = new Weather();
-        Weather rain2 = new Weather("25 of June", "Ожидается хорошая погода");
+        Weather rain2 = new Weather("25 of June", "РћР¶РёРґР°РµС‚СЃСЏ С…РѕСЂРѕС€Р°СЏ РїРѕРіРѕРґР°");
         Weather snow2 = new Weather("25 of December", "This is snow, this is snow");
         rain.setPrognoz("Raining Day");
         rain.setTemperature(15.5);
         rain.setDate("01.07.2022");
         snow.weather();
-        snow.setPrognoz("Ожидается снегопад, порывы ветра до 10м/с");
+        snow.setPrognoz("РћР¶РёРґР°РµС‚СЃСЏ СЃРЅРµРіРѕРїР°Рґ, РїРѕСЂС‹РІС‹ РІРµС‚СЂР° РґРѕ 10Рј/СЃ");
         snow.setTemperature(-15);
         snow.setDate("31.12.2021");
         sunshine.setDate("03.07.2022");
@@ -64,7 +64,7 @@ class Weather {
     }
 
     public void weather() {
-        System.out.println("Весь день идет снег, кружится и летает");
+        System.out.println("Р’РµСЃСЊ РґРµРЅСЊ РёРґРµС‚ СЃРЅРµРі, РєСЂСѓР¶РёС‚СЃСЏ Рё Р»РµС‚Р°РµС‚");
     }
     public Weather() {
     }

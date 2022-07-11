@@ -8,7 +8,7 @@ public class Alisher20 {
         Animals dog1 = new Animals();
         Animals dog2 = new Animals("Reks", 5, true);
         Animals dog3 = new Animals("Doggi", 10, true);
-        Animals dog4 = new Animals("Полкан", 6, true);
+        Animals dog4 = new Animals("РџРѕР»РєР°РЅ", 6, true);
         Animals rabbit = new Animals();
         Animals rabbit2 = new Animals();
         System.out.println(cat1);
