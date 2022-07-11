@@ -34,14 +34,14 @@ public class Rectangle {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите первую сторону прямоугольника: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІСѓСЋ СЃС‚РѕСЂРѕРЅСѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР°: ");
         side1 = input.nextDouble();
-        System.out.println("Введите вторую сторону прямоугольника: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂСѓСЋ СЃС‚РѕСЂРѕРЅСѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР°: ");
         side2 = input.nextDouble();
         areaCalculator(side1, side2);
         perimeterCalculator(side1, side2);
-        System.out.println("Площадь прямоугольника = " + areaCalculator(side1, side2) + " условных квадратных единиц");
-        System.out.println("Периметр прямоугольника = " + perimeterCalculator(side1, side2) + " условных единиц");
+        System.out.println("РџР»РѕС‰Р°РґСЊ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° = " + areaCalculator(side1, side2) + " СѓСЃР»РѕРІРЅС‹С… РєРІР°РґСЂР°С‚РЅС‹С… РµРґРёРЅРёС†");
+        System.out.println("РџРµСЂРёРјРµС‚СЂ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° = " + perimeterCalculator(side1, side2) + " СѓСЃР»РѕРІРЅС‹С… РµРґРёРЅРёС†");
         input.close();
     }
 }
