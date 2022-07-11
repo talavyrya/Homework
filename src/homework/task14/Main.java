@@ -1,12 +1,7 @@
 package homework.task14;
 
-import homework.task14.Database;
-import homework.task14.NewBet;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
-import static java.util.Arrays.*;
 
 public class Main {
     public static void main(String[] args) {
