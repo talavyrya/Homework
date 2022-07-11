@@ -19,6 +19,6 @@ class Author extends Book{
     }
 
     static void show(){
-        System.out.println("Тарас Григорович Шевченко");
+        System.out.println("РўР°СЂР°СЃ Р“СЂРёРіРѕСЂРѕРІРёС‡ РЁРµРІС‡РµРЅРєРѕ");
     }
 }

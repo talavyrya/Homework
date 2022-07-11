@@ -19,6 +19,6 @@ class Content extends Book{
     }
 
     static void show(){
-        System.out.println("Як умру, то поховайте мене на могилі....");
+        System.out.println("РЇРє СѓРјСЂСѓ, С‚Рѕ РїРѕС…РѕРІР°Р№С‚Рµ РјРµРЅРµ РЅР° РјРѕРіРёР»С–....");
     }
 }

@@ -19,6 +19,6 @@ class Title extends Book{
     }
 
     static void show(){
-        System.out.println("Обложка: Кобзар");
+        System.out.println("РћР±Р»РѕР¶РєР°: РљРѕР±Р·Р°СЂ");
     }
 }
