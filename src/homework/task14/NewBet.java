@@ -1,7 +1,7 @@
 package homework.task14;
 
 public class NewBet {
-    private String stavka;
+    private double stavka;
 
     @Override
     public String toString() {
@@ -11,9 +11,9 @@ public class NewBet {
                 '}';
     }
 
-    private String risk;
+    private double risk;
 
-    public NewBet(String stavka, String risk) {
+    public NewBet(double stavka, double risk) {
         this.stavka = stavka;
         this.risk = risk;
     }
@@ -21,19 +21,19 @@ public class NewBet {
     public NewBet() {
     }
 
-    public String getStavka() {
+    public double getStavka() {
         return stavka;
     }
 
-    public void setStavka(String stavka) {
+    public void setStavka(double stavka) {
         this.stavka = stavka;
     }
 
-    public String getRisk() {
+    public double getRisk() {
         return risk;
     }
 
-    public void setRisk(String risk) {
+    public void setRisk(double risk) {
         this.risk = risk;
     }
 }
