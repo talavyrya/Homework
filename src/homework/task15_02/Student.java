@@ -23,6 +23,6 @@ public class Student implements Learn {
 
     @Override
     public void exam() {
-        System.out.println("Every examination student very nervous");
+        System.out.println("Every examination student very strong");
     }
 }

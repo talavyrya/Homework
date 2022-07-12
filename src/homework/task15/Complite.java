@@ -10,7 +10,7 @@ public class Complite {
         Daughter Sofiia = new Daughter("Sofiia", 25, 170);
         Father Olexandr2 = new Son(); // создание объекта сына типа ОТЕЦ
         Dmytro.setName("Dmytro");
-        Olexandr2.setName("Olexandr");
+        Olexandr2.setName("Olexander");
         Olexandr.setName("Olexander");
         Nataliia.setName("Nataliia");
         Nataliia.setAge(37);

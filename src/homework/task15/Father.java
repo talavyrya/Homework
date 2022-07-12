@@ -28,7 +28,7 @@ public class Father {
     }
 
     public void rest() {
-        System.out.println("Father watching TV-set");
+        System.out.println("Father watching TV-set and read book");
     }
 
     public String getName() {

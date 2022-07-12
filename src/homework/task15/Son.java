@@ -10,7 +10,7 @@ public class Son extends Father {
 
     @Override
     public void profession() {
-        System.out.println("Son is - Java developer");
+        System.out.println("Son is -Java developer");
     }
 
     @Override

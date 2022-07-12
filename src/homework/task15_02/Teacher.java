@@ -18,7 +18,7 @@ public class Teacher implements Learn {
 
     @Override
     public void learn() {
-        System.out.println("Teacher " + this.type + ", " + this.age + " must giving knowledge every lesson");
+        System.out.println(" Teacher " + this.type + ", " + this.age + " must giving knowledge every lesson");
     }
 
     @Override

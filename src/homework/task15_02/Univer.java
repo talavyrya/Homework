@@ -5,7 +5,7 @@ public class Univer {
         Student Klimenko = new Student("Ivan", 16);
         Teacher Sklyar = new Teacher("Law", 55);
         Student Ivanov = new Student();
-        Learn Talavyrya = new Student("Dmytro", 34);
+        Learn Talavyrya = new Student(" Dmytro", 34);
         Learn Filonova = new Teacher("English", 58);
         Klimenko.learn();
         Sklyar.learn();
