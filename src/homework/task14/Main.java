@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int i = 0;
+        NewBet[] newArray = new NewBet[2];
+        int l = newArray.length;
         while (true) {
             System.out.println("Введите ставку и риск ставки через пробел: ");
             String arr = input.nextLine();
@@ -15,14 +17,16 @@ public class Main {
             String risk = bet[1];
             NewBet stavka1 = new NewBet(stavka, risk);
             if ("q".equals(stavka) || ("q".equals(risk))) {
+                newArray = Arrays.copyOf(newArray, i);
                 break;
             }
-            Database.bets[i] = stavka1;
+            newArray[i] = stavka1;
             i++;
+            newArray = Arrays.copyOf(newArray, i + 1);
         }
-        NewBet[] newArray = Arrays.copyOf(Database.bets, i);
-        for (int j = 0; j < newArray.length; j++) {
-            System.out.println(newArray[j]);
+        //   System.out.println(Arrays.toString(newArray));
+        for (int y = 0; y < newArray.length; y++) {
+            System.out.println(newArray[y]);
         }
     }
 }
