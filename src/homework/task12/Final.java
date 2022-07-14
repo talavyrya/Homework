@@ -12,6 +12,7 @@ public class Final {
         game(player1);
         game(player2);
     }
+
     public static void game(Team liverpool) {
         liverpool.play();
     }
