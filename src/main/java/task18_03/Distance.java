@@ -35,6 +35,6 @@ public class Distance {
         System.out.println(convert.kiloMetr());
         System.out.println(convert.metrSm());
         System.out.println(convert.milyaKilometr());
-        Distance.print();
+        print();
     }
 }
