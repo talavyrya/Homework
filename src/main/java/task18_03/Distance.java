@@ -1,5 +1,7 @@
 package task18_03;
 
+import java.util.Scanner;
+
 public class Distance {
     public static double distance;
 
@@ -24,5 +26,15 @@ public class Distance {
             double res = distance * 1.609;
             return res;
         }
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Введите величину для преобразования: ");
+        Distance.distance = input.nextDouble();
+        Distance.Converter convert = new Distance.Converter();
+        System.out.println(convert.kiloMetr());
+        System.out.println(convert.metrSm());
+        System.out.println(convert.milyaKilometr());
+        Distance.print();
     }
 }
